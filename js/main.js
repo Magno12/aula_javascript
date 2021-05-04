@@ -1,4 +1,37 @@
+//modulo 02 parti 01
+function soma(n1, n2) {
+    return n1 + n2;
+};
 
+function validadeIdade(idade) {
+    var validar
+    if (idade >= 18) {
+        validar = true;
+    } else {
+        validar = false;
+    }
+    return validar
+}
+
+var idade = prompt("qual a sua idade");
+console.log("validade", validadeIdade(idade));
+
+
+/* function soma(n1, n2) {
+    return n1 + n2;
+};
+
+function setReplace(frase, nome, novo_nome) {
+    return frase.replace(nome, novo_nome);
+};
+
+//modulo01
+
+alert(soma(5, 10));
+alert(setReplace("vai Japão", "Japão", "Brasil"));
+ */
+
+/*
 var d = new Date();
 alert(d.getDate())
 alert(d.getMonth())
@@ -7,7 +40,7 @@ var count;
 for (count = 0; count <= 5; count++) {
 console.log("estrutura for ", count)
 }
-
+ */
 /* var count = 0;
 while (count <= 5) {
     console.log("estrutura while ", count)
@@ -15,13 +48,13 @@ while (count <= 5) {
 }
  */
 
-var idade = prompt("qual sua idade")
+/* var idade = prompt("qual sua idade")
 if (idade >= 18) {
     alert("maior de idade ", idade)
 } else {
     alert("menor de idade", idade)
 }
-
+ */
 /*aula 02
 //lista de dicionarios
 console.log("lista de dicionarios")
