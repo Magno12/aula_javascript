@@ -1,3 +1,7 @@
+//mini curso introdução ao java script
+//digital innovation
+//modulo 02 fim 
+
 function clicou() {
     document.getElementById("agradecimento").innerHTML = "Obrigado por clicar";
     console.log(document.getElementById("agradecimento").innerHTML = "<b>Obrigado por clicar</b>")  //injetando text html
