@@ -1,3 +1,39 @@
+function clicou() {
+    document.getElementById("agradecimento").innerHTML = "Obrigado por clicar";
+    console.log(document.getElementById("agradecimento").innerHTML = "<b>Obrigado por clicar</b>")  //injetando text html
+    //alert("Obrigado por clicar")
+};
+
+function redirecionar() {
+    //window.open("https://google.com"); //abrir nova aba
+    window.location.href = "https://google.com"; // abrir na mesma aba
+}
+
+function troca() {
+    //alert("trocar texto")
+    document.getElementById("mousemove").innerHTML = "Obrigado por passa o mouse"
+}
+
+function volta() {
+    document.getElementById("mousemove").innerHTML = "Passe o mouse aqui"
+}
+//outra maneira
+function trocar(element) {
+    element.innerHTML = "Esta segunda maneira de trocar text obrigado por passa o mouse"
+}
+
+function voltar(element) {
+   element.innerHTML = "Passe o mouse aqui"
+}
+
+function load(){
+    alert("pagina carregada")
+}
+
+function funcaoChange(element){
+    console.log("funcao Change valor : ", element.value)
+}
+/*
 //modulo 02 parti 01
 function soma(n1, n2) {
     return n1 + n2;
@@ -15,7 +51,7 @@ function validadeIdade(idade) {
 
 var idade = prompt("qual a sua idade");
 console.log("validade", validadeIdade(idade));
-
+ */
 
 /* function soma(n1, n2) {
     return n1 + n2;
